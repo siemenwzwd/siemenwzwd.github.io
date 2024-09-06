@@ -1,0 +1,328 @@
+
+h2{
+    color:#0086b3
+  }
+
+  .body2 {
+  font-family: "monaco", monospace;
+  color: white;
+  background-color: #8bcde3;
+
+  }
+
+  #body1 {
+  font-family: "monaco", monospace;
+  color: white;
+  }
+
+  /* zorgt ervoor dat alle tekst hetzelfde is */
+
+
+  footer {
+  background-color: #0086b3;
+  padding: 10px;
+  float: left;
+  width: 100%;
+  text-align: center;
+  }
+  /* opmaak van de footer */
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0086b3;
+    overflow: hidden;
+  }
+
+  li {
+    float: left;
+  }
+
+    li a, .dropbtn {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+    li a:hover, .dropdown:hover .dropbtn {
+    background-color: #8bcde3;
+  }
+  /*zorgt voor het menu boven aan */
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 16px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+
+  .dropdown:hover .dropdown-content {
+  display: block;
+  } /*dropdown menu proberen*/
+
+
+  /** Home pagina **/
+
+  #column1 {
+  display: flex;
+  background-color: #8bcde3;
+  }
+
+  #column1 div {
+  align-items: center;
+  margin: 20px;
+  width: 100%;
+  }
+
+  .col { 
+  font-family: "monaco", monospace;
+  color: white;
+  border-style: solid;
+  border-width: 2px;
+  padding: 20px;
+  }
+  /* zorgt voor de 2 vlakken naast elkaar */
+
+
+  /** binair stelsel pagina **/
+
+  #body1 {
+    background-image: url("Binairachtergrond2.jpg");
+  }
+  /* dit is de achtergrond van binairstelsel */
+
+  #titelkopje1 {
+  color: white;
+  border-color: #8bcde3;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 6px;
+  padding: 40px;
+  background-color: #8bcde3;
+  }
+  /** dit zorgt voor het blauwevlak en de titel van het binairstelsel **/
+
+  #p3 {
+  background-color: #8bcde3;
+    padding: 50px;
+    margin: 20px;
+  }
+  /* dit zorgt voor het blauwe vlak en de inleiding van het binairstelsel*/
+
+  #div1 {
+  background-color: #8bcde3;
+  padding: 50px;
+  margin: 20px;
+  height: auto;
+  width: 25%;
+  float: left;
+  }
+  /* dit zorgt voor het blauwe vlak met de tekst erin*/
+
+  #p6 {
+  float: right;
+  overflow: auto;
+  width: 60%;
+  }
+  /* dit zorgt ervoor dat het filmpje rechts is in de binairstelsel */
+
+
+  /** Bitmap en vector pagina **/
+
+  #column2 {
+  display: flex;
+  background-color: #8bcde3;
+  }
+
+  #column2 div {
+  align-items: center;
+  margin: 20px;
+  width: 100%;
+  }
+
+  .col2 { 
+  border-style: solid;
+  border-width: 2px;
+  padding: 20px;
+  }
+  /* zorgt voor de 2 vlakken naast elkaar */
+
+  #column3a {
+  border-style: solid;
+  padding: 20px;
+  background-color: #8bcde3;
+  float: left;
+  }
+  /* dit is voor het kopje opslag geluid */
+
+  /** de kleurmodelen pagina **/
+
+  #column4 {
+  display: flex;
+  background-color: #8bcde3;
+  }
+
+  #column4 div {
+  align-items: center;
+  margin: 20px;
+  width: 100%;
+  }
+
+  .col4 { 
+  font-family: "monaco", monospace;
+  color: white;
+  border-style: solid;
+  border-width: 2px;
+  padding: 20px;
+  }
+
+  /* zorgt voor de 2 kolommen naast elkaar bij de kleurmodellen */
+
+  .links {
+  float: left;
+  } 
+
+  .rechts {
+  float: right; 
+  }
+  /* dit zorgt voor de 2 plaatjes naast elkaar */
+
+  #div5 {
+  border-style: solid;
+  padding: 20px;
+  background-color: #8bcde3;
+  }
+  /* zorgt voor het kopje pixels */
+
+  a:link, a:visited {
+  background-color: #0086b3;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  }
+  /* opmaak van de button bij de kleurmodellen */
+
+
+
+  #column5 {
+  display: flex;
+  background-color: #8bcde3;
+  }
+
+  #column5 div {
+  align-items: center;
+  margin: 20px;
+  width: 100%;
+  }
+
+  .col5 { 
+  font-family: "monaco", monospace;
+  color: white;
+  border-style: solid;
+  border-width: 2px;
+  padding: 20px;
+  }
+  /* zorgt voor de 2 vakken naast elkaar bij de 3 lagenmodel */ 
+
+
+
+  #div6 {
+  border-style: solid;
+  padding: 20px;
+  background-color: #8bcde3;
+  font-family: "monaco", monospace;
+  color: white; 
+  }
+
+  #column6 {
+  display: flex;
+  background-color: #8bcde3;
+  }
+
+  #column6 div {
+  align-items: center;
+  margin: 20px;
+  width: 100%;
+  }
+
+  .col6 { 
+  font-family: "monaco", monospace;
+  color: white;
+  border-style: solid;
+  border-width: 2px;
+  padding: 20px;
+  }
+
+  /* zorgt voor de 2 vakken naast elkaar bij de kleurmodellen */ 
+
+
+  #div7 {
+  border-style: solid;
+  padding: 20px;
+  background-color: #8bcde3;
+  font-family: "monaco", monospace;
+  color: white; 
+  }
+
+  #column7 {
+  display: flex;
+  background-color: #8bcde3;
+  }
+
+  #column7 div {
+  align-items: center;
+  margin: 20px;
+  width: 100%;
+  }
+
+  .col7 { 
+  font-family: "monaco", monospace;
+  color: white;
+  border-style: solid;
+  border-width: 2px;
+  padding: 20px;
+  }
+
+  /* zorgt voor de 2 vlakken naast elkaar bij */
+
+  #column8 {
+  display: flex;
+  background-color: #8bcde3; 
+  }
+
+  #column8 div {
+  align-items: center;
+  margin: 20px;
+  width: 100%;
+  }
+
+  .col8 { 
+  font-family: "monaco", monospace;
+  color: white;
+  border-style: solid;
+  border-width: 2px;
+  padding: 20px;
+  }
+
+  /*zorgt voor de 2 vlakken naast elkaar bij de fysieke laag */
