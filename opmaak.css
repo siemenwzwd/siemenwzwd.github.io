@@ -85,7 +85,7 @@ h2{
 
   #column1 {
   display: flex;
-  background-color: #8bcde3;
+  background-color: #55679C;
   }
 
   #column1 div {
@@ -113,25 +113,25 @@ h2{
 
   #titelkopje1 {
   color: white;
-  border-color: #8bcde3;
+  border-color: #55679C;
   text-align: center;
   border-style: solid;
   border-width: 2px;
   border-radius: 6px;
   padding: 40px;
-  background-color: #8bcde3;
+  background-color: #55679C;
   }
   /** dit zorgt voor het blauwevlak en de titel van het binairstelsel **/
 
   #p3 {
-  background-color: #8bcde3;
+  background-color: #55679C;
     padding: 50px;
     margin: 20px;
   }
   /* dit zorgt voor het blauwe vlak en de inleiding van het binairstelsel*/
 
   #div1 {
-  background-color: #8bcde3;
+  background-color: #55679C;
   padding: 50px;
   margin: 20px;
   height: auto;
@@ -152,7 +152,7 @@ h2{
 
   #column2 {
   display: flex;
-  background-color: #8bcde3;
+  background-color: #55679C;
   }
 
   #column2 div {
@@ -171,7 +171,7 @@ h2{
   #column3a {
   border-style: solid;
   padding: 20px;
-  background-color: #8bcde3;
+  background-color: #55679C;
   float: left;
   }
   /* dit is voor het kopje opslag geluid */
@@ -180,7 +180,7 @@ h2{
 
   #column4 {
   display: flex;
-  background-color: #8bcde3;
+  background-color: #55679C;
   }
 
   #column4 div {
