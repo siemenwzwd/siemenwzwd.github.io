@@ -37,13 +37,10 @@ h2{
   /* opmaak van de footer */
 
   ul {
-    ul {
       list-style-type: none;
       margin: 0;
       padding: 0;
-      background-color: #7C93C3;
-    }
-  }
+      background-color: #7C93C3;}
 
   li {
     float: left;
