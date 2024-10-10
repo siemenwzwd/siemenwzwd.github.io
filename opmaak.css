@@ -37,12 +37,12 @@ h2{
   /* opmaak van de footer */
 
   ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #7C93C3;
-    overflow: hidden;
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      background-color: #7C93C3;
+    }
   }
 
   li {
