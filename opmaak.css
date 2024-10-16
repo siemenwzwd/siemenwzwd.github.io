@@ -36,85 +36,67 @@ h2{
   }
   /* opmaak van de footer */
 
- /* Standaard dropdown */
-/* Algemene styling voor menu */
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #7C93C3;
-}
-
-li {
-  float: left;
-}
-
-li a, .dropbtn {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover, .dropdown:hover .dropbtn {
-  background-color: #8bcde3;
-}
-
-/* Eerste dropdown menu */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: #f1f1f1;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-/* Submenu voor Fysiekelaag */
-.dropdown-submenu {
-  position: relative;
-}
-
-.dropdown-content-submenu {
-  display: none;
-  position: absolute;
-  left: 100%; /* Submenu verschijnt nu links van het hoofdmenu */
-  top: 0;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-submenu:hover .dropdown-content-submenu {
-  display: block;
-}
-
-.dropdown-content-submenu a:hover {
-  background-color: #f1f1f1;
-}
-
-
-
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #7C93C3;
+    display: flex;
+    justify-content: space-between; /* Verdeelt de items netjes */
+  }
+  
+  li {
+    flex: 1; /* Zorgt ervoor dat elk item dezelfde breedte heeft */
+    position: relative;
+    margin: 0; /* Verwijdert ongewenste marge tussen de menu-items */
+  }
+  
+  li a, .dropbtn {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 0; /* Zorgt ervoor dat de knoppen dezelfde hoogte hebben */
+    text-decoration: none;
+    font-family: "Times New Roman", Times, serif;
+    width: 100%;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: #8bcde3;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100%; /* Zorgt ervoor dat het dropdown-menu even breed is als de knop */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    width: 100%; /* Zorgt ervoor dat de items in de dropdown de volle breedte van de container gebruiken */
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Verwijder ongewenste witruimte door padding en margin consistent te maken */
+  ul, li, li a, .dropbtn, .dropdown-content a {
+    padding: 0;
+    margin: 0;
+  }
+  
   /** Home pagina **/
 
   #column1 {
