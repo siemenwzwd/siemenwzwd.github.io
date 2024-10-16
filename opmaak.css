@@ -37,16 +37,17 @@ h2{
   /* opmaak van de footer */
 
  /* Standaard dropdown */
+/* Algemene styling voor menu */
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  overflow: hidden;
   background-color: #7C93C3;
 }
 
 li {
   float: left;
-  position: relative;
 }
 
 li a, .dropbtn {
@@ -61,6 +62,7 @@ li a:hover, .dropdown:hover .dropbtn {
   background-color: #8bcde3;
 }
 
+/* Eerste dropdown menu */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -83,12 +85,11 @@ li a:hover, .dropdown:hover .dropbtn {
   background-color: #f1f1f1;
 }
 
-/* Zichtbaar maken van het eerste dropdown-menu */
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-/* Tweede dropdown voor "Fysiekelaag" */
+/* Submenu voor Fysiekelaag */
 .dropdown-submenu {
   position: relative;
 }
@@ -96,20 +97,21 @@ li a:hover, .dropdown:hover .dropbtn {
 .dropdown-content-submenu {
   display: none;
   position: absolute;
-  left: 100%; /* Zet het tweede menu rechts van het eerste */
+  right: 100%; /* Submenu verschijnt nu links van het hoofdmenu */
   top: 0;
   background-color: #f9f9f9;
   min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .dropdown-submenu:hover .dropdown-content-submenu {
   display: block;
 }
 
-/* Zorgen dat alle knoppen netjes zijn uitgelijnd */
-.dropdown-content-submenu a {
-  width: 100%; /* Zorg dat de breedte consistent is */
+.dropdown-content-submenu a:hover {
+  background-color: #f1f1f1;
 }
+
 
   /** Home pagina **/
 
